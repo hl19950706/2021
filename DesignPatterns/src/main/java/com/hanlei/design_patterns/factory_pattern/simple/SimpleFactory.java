@@ -1,7 +1,5 @@
 package com.hanlei.design_patterns.factory_pattern.simple;
 
-import com.hanlei.design_patterns.factory_pattern.Product;
-
 /**
  * @author hanlei
  */
@@ -14,5 +12,5 @@ public interface SimpleFactory {
      * @throws InstantiationException
      * @throws IllegalAccessException
      */
-    Product createProduct(Class<Product> productClass) throws InstantiationException, IllegalAccessException;
+    <T extends Product> T createProduct(Class<T> productClass);
 }

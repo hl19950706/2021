@@ -1,9 +1,9 @@
-package com.hanlei.design_patterns.factory_pattern;
+package com.hanlei.design_patterns.factory_pattern.simple;
 
 /**
  * @author hanlei
  */
-public class ProductB implements Product{
+public class ProductB extends Product {
 
 
     @Override

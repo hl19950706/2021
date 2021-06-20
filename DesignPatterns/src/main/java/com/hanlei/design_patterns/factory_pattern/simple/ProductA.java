@@ -1,9 +1,9 @@
-package com.hanlei.design_patterns.factory_pattern;
+package com.hanlei.design_patterns.factory_pattern.simple;
 
 /**
  * @author hanlei
  */
-public class ProductA implements Product{
+public class ProductA extends Product {
 
     @Override
     public String getName() {
